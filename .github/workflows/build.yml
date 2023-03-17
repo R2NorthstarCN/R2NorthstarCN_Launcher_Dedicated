@@ -15,7 +15,7 @@ jobs:
       - name: Checkout binary
         uses: actions/checkout@v2
         with:
-          repository: R2NorthstarCN/NorthstarCN_Binaries
+          repository: R2NorthstarCN/NorthstarCN_Binaries_Dedicated
           ref: "main" # ${{ env.NORTHSTAR_VERSION }}
           path: northstar-launcher
       - name: Download compiled stubs
