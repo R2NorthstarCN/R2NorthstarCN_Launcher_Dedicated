@@ -7,7 +7,7 @@
  * @FilePath: \NorthStarCN_WIKIh:\github\ttf\R2NorthstarCN_Launcher\README.md
  * My Blog: https://blog.hk560.top
 -->
-# NorthStarCN 客户端发布仓库
+# NorthStarCN 服务端发布仓库
 ## 如何下载安装:
 1.从本仓库的[Release](https://github.com/R2NorthstarCN/R2NorthstarCN_Launcher/releases)中下载最新的客户端压缩包
 
