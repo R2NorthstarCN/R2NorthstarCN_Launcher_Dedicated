@@ -40,7 +40,6 @@ jobs:
           mkdir -p northstar/bin/x64_retail
           mv -v northstar-launcher/placeholder_playerdata.pdata northstar/R2Northstar
           mv -v northstar-launcher/wsock32.dll northstar/bin/x64_retail
-          mv -v northstar-launcher/msvcp140_atomic_wait.dll northstar/bin/x64_retail
           unzip NorthstarStubs.zip -d northstar/bin/x64_dedi
           mv -v northstar-launcher/* northstar
           rsync -avr --exclude="Northstar.Coop" --exclude=".git*" northstar-mods/. northstar/R2Northstar/mods
