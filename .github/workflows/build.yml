@@ -46,7 +46,7 @@ jobs:
       - name: Checkout Navmesh repository
         uses: actions/checkout@v4
         with:
-          repository: R2Northstar/NorthstarNavs
+          repository: Zanieon/NorthstarNavs
           path: northstar-navs
       - name: Navmeshes setup
         run: |
